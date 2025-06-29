@@ -1,6 +1,16 @@
 # Define a function named 'add' that takes two arguments, 'number1' and 'number2'.
 def add(number1, number2):
     # The function returns the sum of 'number1' and 'number2'.
+    """
+    Return the sum of two numbers.
+    
+    Parameters:
+        number1: The first number to add.
+        number2: The second number to add.
+    
+    Returns:
+        The sum of number1 and number2.
+    """
     return number1 + number2
 
 # Initialize the variable 'num1' with the value 4.
