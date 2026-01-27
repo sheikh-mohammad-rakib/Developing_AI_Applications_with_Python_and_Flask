@@ -72,4 +72,5 @@ class TestAdd(unittest.TestCase):
         
 # Run all the test cases defined in the module when the script is executed.
 # This will automatically discover and run all the test cases defined in the module.
-unittest.main()
+if __name__ == "__main__":
+    unittest.main()
