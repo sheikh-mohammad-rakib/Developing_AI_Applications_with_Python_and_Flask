@@ -1,3 +1,6 @@
+"""
+This module provides a simple add function and demonstrates its usage.
+"""
 # Define a function named 'add' that takes two arguments, 'number1' and 'number2'.
 def add(number1, number2):
     # The function returns the sum of 'number1' and 'number2'.
@@ -13,14 +16,19 @@ def add(number1, number2):
     """
     return number1 + number2
 
-# Initialize the variable 'num1' with the value 4.
-num1 = 4
+# Initialize the variable 'NUM1' with the value 4.
+NUM1 = 4
 
-# Initialize the variable 'num2' with the value 5.
-num2 = 5
+# Initialize the variable 'NUM2' with the value 5.
+NUM2 = 5
 
-# Call the 'add' function with 'num1' and 'num2' as arguments and store the result in 'total'.
-total = add(num1, num2)
+# Call the 'add' function with 'NUM1' and 'NUM2' as arguments and store the result in 'TOTAL'.
+TOTAL = add(NUM1, NUM2)
 
-# Print the result of adding 'num1' and 'num2' using the 'format' method to insert the values into the string.
-print("The sum of {} and {} is {}".format(num1, num2, total))
+# Print the result of adding 'NUM1' and 'NUM2' using an f-string.
+RESULT_TEXT = (
+    f"The sum of {NUM1} "
+    f"and {NUM2} "
+    f"is {TOTAL}"
+)
+print(RESULT_TEXT)
